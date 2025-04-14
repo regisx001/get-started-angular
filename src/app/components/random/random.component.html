@@ -1,0 +1,16 @@
+<section class="mt-40">
+  <h1 class="text-3xl">
+    {{ value }}
+  </h1>
+
+  <p-floatlabel>
+    <input
+      class="ngPrimary"
+      pInputText
+      id="over_label"
+      [(ngModel)]="value"
+      autocomplete="off"
+    />
+    <label for="over_label">Over Label</label>
+  </p-floatlabel>
+</section>
